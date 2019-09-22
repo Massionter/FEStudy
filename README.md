@@ -4,14 +4,14 @@
 
 JS对象练习案例
 
-> [参考MDN：](<https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_building_practice>)
+> [参考MDN](<https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_building_practice>)
 
-在线：<https://massionter.com/FEStudy/balls/>
+[在线运行试试](<https://massionter.com/FEStudy/balls/>)
 
 ### 博客前端页面
 > 数据为后台接口的JSON数据
 可在blog/api查看
-[在线访问：](<https://massionter.com/FEStudy/myblog/>)
+[在线访问看看好不好看](<https://massionter.com/FEStudy/myblog/>)
 
 ### Vue 练习
 
