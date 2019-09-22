@@ -1,7 +1,7 @@
 window.onload = function () {
     // 获取留言信息
     $.ajax({
-        url: "https://massionter.com/H5games/blog/api/comment/list/list.json",
+        url: "https://massionter.com/FEStudy/blog/api/comment/list/list.json",
         type: "GET",
         dataType: "json",
         success: function (json) {
@@ -38,7 +38,7 @@ $('#addComment').click(function () {
     }
     // 提交AJAX请求
     $.ajax({
-        url: "https://massionter.com/H5games/blog/api/comment/",
+        url: "https://massionter.com/FEStudy/blog/api/comment/",
         type: "POST",
         dataType: "json",
         contentType: "application/json;charset=utf-8",

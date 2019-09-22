@@ -1,7 +1,7 @@
 // 页面初始化：填充数据
 window.onload = function () {
     $.ajax({
-        url: "https://massionter.com/H5games/blog/api/category/list/1.json",
+        url: "https://massionter.com/FEStudy/blog/api/category/list/1.json",
         type: "GET",
         dataType: "json",
         success: function (json) {
@@ -50,7 +50,7 @@ function showAllArticleInfo() {
 
     $.ajax({
         type: "get",
-        url: "https://massionter.com/H5games/blog/api/article/list/list.json",
+        url: "https://massionter.com/FEStudy/blog/api/article/list/list.json",
         dataType: "json",
         success: function (json) {
             $.each(json, function (i, item) {
@@ -75,7 +75,7 @@ function showAllArticleInfo() {
 function showArticleByCategoryId(id) {
     $.ajax({
         type: "get",
-        url: "https://massionter.com/H5games/blog/api/article/list/sort/" + id + ".json",
+        url: "https://massionter.com/FEStudy/blog/api/article/list/sort/" + id + ".json",
         dataType: "json",
         success: function (json) {
             $.each(json, function (i, item) {

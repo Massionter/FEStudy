@@ -4,7 +4,7 @@ window.onload = function () {
     // 添加文章信息
     $.ajax({
         type: "get",
-        url: "https://massionter.com/H5games/blog/api/article/" + articleId + ".json",
+        url: "https://massionter.com/FEStudy/blog/api/article/" + articleId + ".json",
         dataType: "json",
         success: function (json) {
             // 解析json对象，并向页面添加数据
@@ -20,7 +20,7 @@ window.onload = function () {
     // 添加文章评论信息
     $.ajax({
         type: "get",
-        url: "https://massionter.com/H5games/blog/api/comment/article/" + articleId + ".json",
+        url: "https://massionter.com/FEStudy/blog/api/comment/article/" + articleId + ".json",
         dataType: "json",
         success: function (json) {
             // 解析json对象，并向页面添加数据
@@ -72,7 +72,7 @@ $('#addComment').click(function () {
     }
     // 提交AJAX请求
     $.ajax({
-        url: "https://massionter.com/H5games/blog/api/comment/article/" + articleId + ".json",
+        url: "https://massionter.com/FEStudy/blog/api/comment/article/" + articleId + ".json",
         type: "POST",
         dataType: "json",
         contentType: "application/json;charset=utf-8",
