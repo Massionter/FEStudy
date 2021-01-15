@@ -1,4 +1,4 @@
-#### vue-grid-layout 更新版本遇到的问题
+#### 1. vue-grid-layout 更新版本遇到的问题(未解决)
 
 - 原版本：`vue-grid-layout`:2.3.4
 - 最新版本：`vue-grid-layout`:2.3.11
@@ -40,4 +40,6 @@ You may need an appropriate loader to handle this file type.
 ```
 
 
+
+#### 2. 
 
