@@ -40,3 +40,5 @@ You may need an appropriate loader to handle this file type.
 ```
 
 
+### update
+之前的解决方式就是直接不用`2.3.11`版本了，后续看到作者更新了`2.3.12-legacy`，已解决上面的问题。
