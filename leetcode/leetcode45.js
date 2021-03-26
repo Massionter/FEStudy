@@ -14,4 +14,4 @@ function getJumpNum(nums) {
   }
   return step
 }
-console.log(getJumpNum([2,3,1,3,5]))
+console.log(getJumpNum([0,3,1,3,5]))
