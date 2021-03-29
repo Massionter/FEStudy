@@ -3,16 +3,16 @@
  * @Date: 2021-03-26 15:46:35
  * @LastModifiedBy: daiyonghong
  * @LastEditors: daiyonghong
- * @LastEditTime: 2021-03-26 16:28:11
+ * @LastEditTime: 2021-03-26 16:58:04
  * @FilePath: \FEStudy\jsUtils\hex2rgb.js
  * @Description: 十六进制转RGB
  */
-const hex2rgb = (str) => {
+const hex2rgb = (hexColor) => {
   let newstr = ''
-  if (str.length === 4) {
-    newstr = str.slice(0, 1) + str.slice(1) + str.slice(1)
+  if (hexColor.length === 4) {
+    newstr = hexColor.slice(0, 1) + hexColor.slice(1) + hexColor.slice(1)
   } else {
-    newstr = str
+    newstr = hexColor
   }
   const rgbArr = []
   for (let i = 1; i < 7; i+=2) {
