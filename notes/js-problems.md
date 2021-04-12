@@ -1,0 +1,4 @@
+- instanceof 原理
+- null
+- 闭包
+- 继承
